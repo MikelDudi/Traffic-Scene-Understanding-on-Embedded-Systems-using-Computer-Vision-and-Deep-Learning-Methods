@@ -1,2 +1,3 @@
 # Traffic-Scene-Understanding-on-Embedded-Systems-using-Computer-Vision-and-Deep-Learning-Methods
-This project presents a hybrid system for real- time road sign and zebra crossing detection on a Raspberry Pi 4.
+This project presents a hybrid system for real- time road sign and zebra crossing detection on a Raspberry Pi 4. A fine-tuned YOLOv8 model is employed for traffic sign detection, focusing on small objects such as stop signs, speed limits, and traffic lights. In parallel, a lightweight computer vision pipeline identifies zebra crossings by extracting bright white regions, grouping them into stripe patterns, and
+highlighting confirmed crossings. The system is deployed on a Raspberry Pi, demonstrating efficient, real-time performance. By combining machine learning with classical vision methods, this project contributes a practical pattern recognition solution for road safety in dynamic environments.
